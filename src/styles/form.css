@@ -1,0 +1,45 @@
+:root{
+    --base: #a50303;
+    --second: #F3950D;
+    --contrast: black;
+    --soft-high: #f7e289;
+    --soft: #f7ecb9;
+}
+.form-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25vw;
+    max-width: 250px;
+    min-width: 150px;
+    min-height: 20px;
+    padding: 10px;
+    color: var(--contrast);
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: solid 2px black;
+    background-color: var(--second);
+    padding:10px;   
+}
+
+input{
+    background-color: var(--soft);
+    border: solid 1px rgb(110, 56, 69);
+}
+
+button{
+    width: 100px;
+    border-radius: 10px;
+    background-color: var(--soft);
+}
+
+button:active{
+    background-color: var(--base);
+}
